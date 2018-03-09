@@ -1,0 +1,45 @@
+/* Body, Used for changing universal characteristics */
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    
+    color: black;
+    
+    width: auto;
+    height: auto;
+    
+    background-color: gainsboro;
+}
+/* Set Margins / Padding and change the Background colour of the Navigation Menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+/* Sets the Alignment to Left and adds Breakers between Navigation Menu Headings */
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+/* Will change the colour of Text etc in the Navigation Bar */
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Will change the colour of a Navigation button if the mouse hovers over it */
+li a:hover:not(.active) {
+    background-color: lightgray;
+}
+
+/* Will make current page on Navigation Menu The Set colour */
+.active {
+    background-color: darkgray;
+}
