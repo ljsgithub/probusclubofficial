@@ -1,0 +1,80 @@
+/* Body, Used for changing universal characteristics */
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+}
+
+/* #head1 used for the headers on each page. */
+#head1 {
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    color: darkblue;
+}
+
+/* #footerlogo used for the ProBus Logo that is present in the footer */
+#footerlogo {
+    width: 49%;
+    float: left;
+    padding: 5px;
+}
+
+/* #footertxt used for the footer at the bottom of Every page */
+#footertxt {
+    width: 49%;
+    float: left;
+    padding: 5px;
+}
+
+/* #blogpic used for the first and last picture on the home page */
+#blogpic {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+/* #blogpic2 used for the second picture on the home page */
+#blogpic2 {
+    width: 48.5%;
+    float: left;
+    padding: 5px;
+}
+
+/* #blogtxt used for the first and last sections of text on the home page */
+#blogtxt {
+    width: 48.5%;
+    float: left;    
+    padding: 5px;
+}
+
+/* #blogtxt2 used for the second section of text on the home page */
+#blogtxt2 {
+    width: 50%;
+    float: left;    
+    padding: 5px;
+}
+
+/* MyButton used for adding styles to buttons on homepage */
+input.MyButton {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 3px solid #3366cc;
+border-radius: 10px;
+}
+
+/* MyButton:hover will change the styling of the button on move over */
+input.MyButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
