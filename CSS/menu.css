@@ -1,1 +1,33 @@
+/* Set Margins / Padding and change the Background colour of the Navigation Menu */
+#main-nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gainsboro;
+}
 
+/* Sets the Alignment to Left and adds Breakers between Navigation Menu Headings */
+#main-nav li {
+    float: left;
+    list-style-type: none;
+    border-right:1px solid #bbb;
+}
+
+/* Will change the colour of Text etc in the Navigation Bar */
+#main-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Will change the colour of a Navigation button if the mouse hovers over it */
+#main-nav li a:hover:not(.active) {
+    background-color: lightgray;
+}
+
+/* Will make current page on Navigation Menu The Set colour */
+.active {
+    background-color: darkgray;
+}
