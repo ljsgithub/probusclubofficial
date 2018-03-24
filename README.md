@@ -9,7 +9,39 @@ This repository was created for the Computing: Project Level 6 unit.
 * [x] 1. Design Document
     * [x] 1.1 Written Summary
     * [x] 1.2 Diagrams (wireframe and layout)
-    * [ ] 1.3 Colour Scheme Justification
+    * [ ] 1.3 Colour Scheme Justification (add a line to presentation justifying the colour scheme we are using)
+
+## Specification
+
+* [x] 2. Specification Document
+    * [x] 2.1 Clear Outlined Purpose
+    * [ ] 2.2 List of Resources (needs to be expanded)
+    * [x] 2.3 Summary of techniques planned to be used
+    * [x] 2.4 Includes explanation of what is required
+
+## Implementation
+
+* [x] 3. Markup Template
+    * [x] 3.1 Navigation Bar
+    * [x] 3.2 Content Area Defined
+    * [x] 3.4 Footer Contains Logo
+    * [x] 3.5 Matches Design Doc
+
+* [ ] 4. Markup individual pages
+    * [ ] 4.1 Pages Include all relevant content
+
+* [ ] 5. Add CSS to individual pages
+   * [ ] 5.1 Matches Design Doc
+   * [ ] 5.2 Images are Responsive
+   * [ ] 5.3 Consistent Colour Scheme
+   * [ ] 5.4 Readable Class Names
+
+* [ ] 6. Add Javascript and Functionality to website
+    * [ ] Login System Complete
+    * [ ] Forms operational (or shown to be implemented in future)
+    
+ 
+
 
 
 
