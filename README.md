@@ -43,11 +43,10 @@ This repository was created for the Computing: Project Level 6 unit.
  
 
 
-
-
-
 ---
+
 <!-- Github Tutorial -->
+
 ## Github & Git basics Reminder
 
 ### Installing Git
