@@ -6,10 +6,10 @@ This repository was created for the Computing: Project Level 6 unit.
 
 ## Design
 
-* [x] 1.1 Design Document
-    * [x] 1.2 Written Summary
-    * [x] 1.3 Diagrams (wireframe and layout)
-    * [ ] 1.4 Colour Scheme Justification
+* [x] 1. Design Document
+    * [x] 1.1 Written Summary
+    * [x] 1.2 Diagrams (wireframe and layout)
+    * [ ] 1.3 Colour Scheme Justification
 
 
 
