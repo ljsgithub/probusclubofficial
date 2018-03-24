@@ -108,3 +108,10 @@ If you're working on a repository with other people, and it wasn't created by yo
 > git checkout [branchname]
 
 * This will switch you to the branch you specify 
+
+> git push 
+
+* Pushes to a remote repository (you may have to do -u origin the first time)
+
+> git pull
+* Pulls from a remote repository
