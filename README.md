@@ -1,4 +1,21 @@
 # Probus Club Website
+
+This repository was created for the Computing: Project Level 6 unit.
+
+# Tasks List
+
+## Design
+
+* [x] 1.1 Design Document
+    * [x] 1.2 Written Summary
+    * [x] 1.3 Diagrams (wireframe and layout)
+    * [ ] 1.4 Colour Scheme Justification
+
+
+
+
+---
+<!-- Github Tutorial -->
 ## Github & Git basics Reminder
 
 ### Installing Git
