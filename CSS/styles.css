@@ -1,3 +1,8 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
 /* Body, Used for changing universal characteristics */
 body {
     font-family: sans-serif;
@@ -5,28 +10,56 @@ body {
     color: black;
     width: auto;
     height: auto;
-    background-color: gainsboro;
+    background-color: white;
+}
+
+/* <p> Used for styling text within the <p> tag */
+p{
+    padding-top:20px;
 }
 
 /* #head1 used for the headers on each page. */
-#head1 {
-    position: relative;
+.header-image2 {
+    width:100%;
+    height:473px;
+    background-image: url(../Images/falkirk%20stadium.jpg);
+    background-size: cover;
+}
+
+.header-image2 h1{
+    padding-top: 200px;
+    color:gainsboro;
     text-align: center;
-    padding: 5px;
-    color: darkblue;
+}
+
+.header-image3 {
+    width: 100%;
+    height: 473px;
+    background-image: url(../Images/callendar%20house%20header.jpg);
+    background-size: cover;
+}
+
+.header-image3 h1 {
+    padding-top: 200px;
+    color: gainsboro;
+    text-align: center;
 }
 
 /* #footerlogo used for the ProBus Logo that is present in the footer */
 #footerlogo {
-    width: 49%;
     float: left;
     padding: 5px;
 }
 
+.footer-box{
+    width: 100%;
+    height:100px;
+    background-color: rgb(18, 87, 143);
+}
+
 /* #footertxt used for the footer at the bottom of Every page */
 #footertxt {
-    width: 49%;
-    float: left;
+    float: right;
     padding: 5px;
 }
 
@@ -60,15 +93,15 @@ body {
 
 /* MyButton used for adding styles to buttons on homepage */
 input.MyButton {
-width: 200px;
-padding: 20px;
-cursor: pointer;
-font-weight: bold;
-font-size: 150%;
-background: #3366cc;
-color: #fff;
-border: 3px solid #3366cc;
-border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+    background: #3366cc;
+    color: #fff;
+    border: 3px solid #3366cc;
+    border-radius: 10px;
 }
 
 /* MyButton:hover will change the styling of the button on move over */
@@ -78,3 +111,242 @@ background: #000;
 border: 1px solid #fff;
 }
 
+/* Styles the h1 tag so that there will be 10px of padding at the top */
+h1{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+/* Styles the h2 tag so that there will be 15px of padding at the top */
+h2{
+    padding-top:15px;
+}
+
+/* Container for Columns This is used to create the area where the columns will be */
+.col-container {
+    display: flex;
+    width: 100%;
+    margin-top: -5px;
+    padding-bottom: 10px; /* Removes whitespace from between footer and text */
+    background-color: darkgrey; /* Changed from gainsboro to grey (darker shade) */
+}
+
+/* Used for creating the indevidual columns */ 
+.col {
+    flex: 1;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(18, 87, 143);
+}
+
+/* Container for Columns this is used to create the area where the columns will be */
+.col-container-image {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    background-color: darkgrey; /* Changed from gainsboro to grey (darker shade) */
+}
+
+/* Used for creating the indevidual columns for the images */
+.col-image {
+    flex: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Used for creating responsive images which will resize on resoulution change */
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Used for creating the table on the Members page */
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#999;
+    margin:0px auto;
+}
+
+.tg td{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#999;
+    color:#444;
+    background-color:#F7FDFA;
+}
+
+.tg th{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#999;
+    color:#fff;
+    background-color:#26ADE4;
+}
+
+.tg .tg-tablehead{
+    font-weight:bold;
+    background-color:#12578f;
+    color:#9b9b9b;
+    text-align:center;
+    vertical-align:top;
+}
+
+.tg .tg-tablerow{
+    background-color:gainsboro;
+    vertical-align:top;
+}
+
+@media screen and (max-width: 800px) {
+    .tg {
+        width: auto !important;
+    }
+    
+    .tg col {
+        width: auto !important;
+    }
+    
+    .tg-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: auto 0px;
+    }
+}
+
+#calandar {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* Used for creating the image gallery on the gallery page */
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallerydesc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    padding-bottom: 10px;
+    float: left;
+    width: 24.99999%;
+        box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Login */
+
+form {
+    
+}
+
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    width:25%;
+    margin-left: 37.5%;
+    margin-right:  37.5%;
+    background-color: gainsboro
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#userpicture {
+    width: 180px;
+    height: 180px;
+}
