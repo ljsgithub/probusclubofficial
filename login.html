@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head> 
+        <!--    Use to change the title of the page that is displayed in the tabs bar -->
+        <title>
+            Falkirk ProBus (Home)   
+        </title>
+        
+        <!-- This will make the webpage compataible with Internet Explorer - Edge -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--    Link to Stylessheet for the navigation menu -->
+        <link rel="stylesheet" href="CSS/menu.css" />
+        <!--    Link to Stylessheet for Styling of page -->
+        <link rel="stylesheet" href="CSS/styles.css" />
+    </head>
+    
+    <body>
+         <!--    Navigation Bar (Links to other pages of the site) -->
+        <nav id="main-nav">
+         <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="probusorganization.html">The ProBus Organisation</a></li>
+                <li><a href="committee.html">Committee</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="constitution.html">Constitution</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li class="login"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+           
+            
+            <!--    Content Begins Here -->
+            <!--    Header that will be displayed under the Above picture -->
+            <h1 style="text-align:center; color:darkblue"> Login </h1>
+        
+        <form action="/action_page.php">
+            <div class="imgcontainer">
+                <img src="Images/Probus-logo.jpg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <button type="submit">Login</button>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+        <!--    Content Ends Here   -->
+    </body>
+    <!--    Container which will contain the footertxt and footerlogo  -->
+    <div class="footer-box">
+    <!--    Footer, Contains ProBus Logo    -->
+    <div id="footerlogo">
+        <img src="Images/ProBusLogo.png" alt="ProBus">
+    </div>    
+    
+    <!--    Footer, Cointains CopyRight information -->
+    <div id="footertxt">        
+        <footer>
+            <br> &copy; 2018, Falkirk Probus Club
+        </footer>
+    </div>
+        
+    </div>
+    
+</html>
